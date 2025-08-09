@@ -9,6 +9,7 @@ function agregarAmigo() {
    } else {
     amigos.push(nombre);
     limpiarCuadro();
+    actualizarLista()
    }
 }
 
